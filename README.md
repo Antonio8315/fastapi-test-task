@@ -16,7 +16,7 @@ RESTful API для управління каталогом товарів та �
 ### 1. Клонування репозиторію
 
 ```bash
-git clone https://github.com/Antonio8315/Test-Question.git
+git clone https://github.com/Antonio8315/fastapi-test-task.git
 cd fastapi-test-task
 ```
 
