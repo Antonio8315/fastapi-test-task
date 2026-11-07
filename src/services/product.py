@@ -2,7 +2,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select
 from fastapi import HTTPException
 from src.models.product import Product, ProductCategory, ProductAttribute, ProductImage
-from src.schemas.product import ProductCreate, ProductUpdate
+from src.schemas.product import ProductCreate
 
 class ProductService:
     def __init__(self, session: AsyncSession):
